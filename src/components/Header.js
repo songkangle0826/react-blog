@@ -16,9 +16,9 @@ const menu = (
 class Header extends Component{
     render(){
         return(
-            <div class="app-header">
-                <div class="header-logo"><img src="" alt=""/></div>
-                <div class="header-info">
+            <div className="app-header">
+                <div className="header-logo"><img src="" alt=""/></div>
+                <div className="header-info">
                     <div style={ {width:'40px',height:'40px',background:'red'} }><img src="" alt=""/></div>
                     <Dropdown overlay={menu} overlayStyle={{width:'200px',background:'#fff','top':'60px','display':'felx'}}>
                         <a className="ant-dropdown-link" href="#">

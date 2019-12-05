@@ -5,6 +5,9 @@ let menu = (state={
     menu:[],
 },action)=>{
     switch(action.type){
+        case ActionTypes.MENUTOREDUX:
+            state = { ...state,menu:action.menu  }
+            break;
         default:
             break;
     }

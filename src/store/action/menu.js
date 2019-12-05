@@ -1,9 +1,11 @@
 import * as ActionTypes from '../action-types';
 
 let menu = {
-    getMenuList(){
+    getMenuList(menu = []){
+        console.log(menu,'wwww');
         return {
-
+            type: ActionTypes.MENUTOREDUX,
+            menu: menu
         }
     }
 }
