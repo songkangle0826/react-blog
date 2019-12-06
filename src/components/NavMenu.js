@@ -12,7 +12,8 @@ class NavMenu extends Component{
         return(
             <Menu.Item key={ item.path }>
                 <Link to={ item.path }>
-                    <Icon type="pie-chart" />
+                    
+                    <Icon type="fire" />
                     <span>{ item.title }</span>
                 </Link>
             </Menu.Item>
@@ -26,7 +27,7 @@ class NavMenu extends Component{
                 key={ item.path }
                 title={
                     <span>
-                        <Icon type="mail" />
+                        <Icon type="ant-design" />
                         <span>{ item.title }</span>
                     </span>
                 }
