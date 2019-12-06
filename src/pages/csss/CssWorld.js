@@ -11,7 +11,7 @@ class CssWorld extends Component{
             breadNav: ['CSS世界'],
             contentList: [{
                 id: 1,
-                header: 'cssshijie',
+                header: '什么是BFC',
                 text: '<pre>111111111</pre>',
             }],
         };
